@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(218, 218, 218);
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 5% 10%;
+}
+
+.logo h2 {
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.logo img {
+    display: flex;
+    height: 70px;
+    width: auto;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+.nav-links a {
+    font-size: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.logo img:hover {
+    transform:scale(1.1);
+    cursor: pointer;
+}
